@@ -13,8 +13,8 @@ features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "SEO", "Bootstra
 
 authors = [
   {name = "Yash Mehrotra", homepage = "https://yashmehrotra.com"},
-  {name = "Avijit Gupta", homepage = "https://526avijitgupta.github.io"}
-  {name = "Elijah Danko", homepage = "https://elijahdanko.net"}
+  {name = "Avijit Gupta", homepage = "https://526avijitgupta.github.io"},
+  {name = "Elijah Danko", homepage = "https://elijahdanko.net"},
 ]
 
 min_version = "0.81.0"
