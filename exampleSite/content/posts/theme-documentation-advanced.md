@@ -2,12 +2,12 @@
 weight: 15
 title: "Theme Documentation - Advanced"
 date: 2020-05-06T21:29:01+08:00
-description: "Discover how to maximise Gokarna's potential"
+description: "Discover how to maximise NewGokarna's potential"
 tags: ["installation", "configuration", "markdown"]
 type: post
 ---
 
-Gokarna is an opinionated theme with a focus on minimalism and simplicity.
+NewGokarna is an opinionated theme with a focus on minimalism and simplicity.
 
 ## Content Types
 
@@ -55,11 +55,11 @@ The `weight` attribute can be added in the markdown metadata for `post` types. W
 3. Do not show anything if the variable is unset or an empty string.
 
 ## Icons
-Gokarna supports popular social media icons (Github, Linkedin, Twitter, StackOverflow, Dribbble, etc.) out of the box. See full list of supported icons [here](https://github.com/526avijitgupta/gokarna/tree/main/static/icons).
+NewGokarna supports popular social media icons (Github, Linkedin, Twitter, StackOverflow, Dribbble, etc.) out of the box. See full list of supported icons [here](https://github.com/elijahdanko/neo-gokarna/tree/main/static/icons).
 
 ### Icons on homepage
 
-To display icons on the homepage, simply update the `socialIcons` config param with a list of name and url of each icon. The specified `name` should exactly match one of the names from [here](https://github.com/526avijitgupta/gokarna/tree/main/static/icons).
+To display icons on the homepage, simply update the `socialIcons` config param with a list of name and url of each icon. The specified `name` should exactly match one of the names from [here](https://github.com/elijahdanko/neo-gokarna/tree/main/static/icons).
 If you want to add more icons, you can download the svg directly from [here](https://simpleicons.org/)  and place them in your local icons directory (`/static/icons/`)
 
 ```toml
@@ -171,7 +171,7 @@ You can read more about syntax highlighting on the [official hugo docs](https://
 
 ## Site Metadata
 
-Gokarna enables you to improve the SEO performance of your website with minimal effort.
+NewGokarna enables you to improve the SEO performance of your website with minimal effort.
 
 ### Image preview
 
@@ -203,5 +203,5 @@ and the `metaKeywords` specified in the config.toml:
 
 ```markdown
 [params]
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  metaKeywords = ["blog", "neo-gokarna", "hugo"]
 ```

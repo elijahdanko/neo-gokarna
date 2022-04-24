@@ -2,12 +2,12 @@
 weight: 10
 title: "Theme Documentation - Basics"
 date: 2020-03-06T21:29:01+08:00
-description: "A guide to getting started with Gokarna"
+description: "A guide to getting started with NewGokarna"
 tags: ["installation", "configuration", "markdown"]
 type: post
 ---
 
-Gokarna is an opinionated theme with a focus on minimalism and simplicity.
+NewGokarna is an opinionated theme with a focus on minimalism and simplicity.
 
 ## Installation
 
@@ -24,26 +24,26 @@ cd my_website
 
 ### b. Install the Theme
 
-The theme’s repository is: [https://github.com/526avijitgupta/gokarna](https://github.com/526avijitgupta/gokarna).
+The theme’s repository is: [https://github.com/elijahdanko/neo-gokarna](https://github.com/elijahdanko/neo-gokarna).
 
-You can download the [latest release :books: .zip file](https://github.com/526avijitgupta/gokarna/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :books: .zip file](https://github.com/elijahdanko/neo-gokarna/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
 ```bash
-git clone https://github.com/526avijitgupta/gokarna.git themes/gokarna
+git clone https://github.com/elijahdanko/neo-gokarna.git themes/neo-gokarna
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```bash
 git init
-git submodule add https://github.com/526avijitgupta/gokarna.git themes/gokarna
+git submodule add https://github.com/elijahdanko/neo-gokarna.git themes/neo-gokarna
 ```
 
 ### c. Basic Configuration {#basic-configuration}
 
-The following is a basic configuration for the gokarna theme:
+The following is a basic configuration for the neo-gokarna theme:
 
 ```toml
 baseURL = "http://example.org/"
@@ -52,7 +52,7 @@ languageCode = "en"
 
 title = "My New Hugo Site"
 
-theme = "gokarna"
+theme = "neo-gokarna"
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
@@ -131,7 +131,7 @@ The website can be automatically published and hosted with [Netlify](https://www
 
 ## Configuration
 
-In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **gokarna** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
+In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **neo-gokarna** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
 
 ```toml
 [params]
@@ -152,7 +152,7 @@ In addition to [Hugo global configuration](https://gohugo.io/overview/configurat
   customHeadHTML = ""
 
   # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  metaKeywords = ["blog", "neo-gokarna", "hugo"]
 
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
