@@ -98,7 +98,7 @@ img {
 }
 
 .header a {
-    text-decoration: none;
+    text-decoration:none;
 }
 .header .header-nav {
     height: 50px;
@@ -118,7 +118,7 @@ img {
     margin-top: 5px;
     overflow: hidden;
     width: 38px;
-}
+} 
 .header-nav .nav-title {
     display: inline-block;
     height: 100%;
@@ -165,6 +165,16 @@ a:hover .feather-sun {
     color: black;
 }
 
+a .feather-sun {
+    position: relative;
+    left: -1040px;
+}
+
+a .feather-moon {
+    position: relative;
+    left: -1040px;
+}
+
 .dark-theme-toggle .feather {
     height: 22px;
     stroke-linecap: round;
@@ -197,6 +207,10 @@ a:hover .feather-sun {
     text-decoration: underline;
 }
 
+.nav-link {
+    position: relative;
+    right: -45px;
+}
 /* FOOTER */
 .footer {
     bottom: 0;
@@ -343,6 +357,7 @@ table td {
 .home-about .avatar img.size-m {
     height: 11rem;
     width: 11rem;
+    border: 3px solid black;
 }
 
 .home-about .avatar img.size-l {
