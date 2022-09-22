@@ -135,12 +135,6 @@ In addition to [Hugo global configuration](https://gohugo.io/overview/configurat
 
 ```toml
 [params]
-  # URL for the avatar on homepage
-  avatarURL = ""
-
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = ""
-
   # Description to display on homepage
   description = "Sky above, sand below & peace within"
 

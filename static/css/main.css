@@ -105,11 +105,12 @@ img {
     margin-top: 0;
 }
 
-.header-nav .avatar {
+.header-nav .dark-theme-toggle {
     border-radius: 18px;
     float: left;
     height: 100%;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 .header-nav .avatar img {
     border-radius: 100%;
@@ -167,34 +168,10 @@ a:hover .feather-sun {
 
 .dark-theme-toggle .feather {
     height: 22px;
+    padding: 0 6px;
     stroke-linecap: round;
     stroke-linejoin: round;
     width: 22px;
-}
-#hamburger-menu-toggle {
-    display: none;
-}
-#hamburger-menu-toggle .feather {
-    height: 24px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    width: 24px;
-}
-.nav-hamburger-list {
-    background: rgb(var(--light-primary-color));
-    border-bottom: solid 1.5px var(--light-secondary-color);
-    border-top: solid 1.5px var(--light-secondary-color);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 100%;
-    z-index: 5;
-}
-.nav-hamburger-list a:hover {
-    text-decoration: underline;
 }
 
 /* FOOTER */
@@ -493,10 +470,6 @@ table td {
         display: none;
     }
 
-    #hamburger-menu-toggle {
-        display: inline-block;
-    }
-
     main#content {
         box-sizing: border-box;
         padding: 0 1.5rem;
@@ -513,11 +486,5 @@ table td {
 
     .list-posts .post-date {
         color: gray;
-    }
-}
-
-@media only screen and (min-width: 820px) {
-    .nav-hamburger-list {
-        visibility: hidden !important;
     }
 }
