@@ -9,7 +9,7 @@ for a personal use case.
 
 1. [Yash Mehrotra](https://yashmehrotra.com)
 2. [Avijit Gupta](https://twitter.com/526avijit)
-3. [Elijah Danko](https://elijahdanko.net)
+3. [Illia Danko](https://elijahdanko.net)
 
 ## LICENSE
 

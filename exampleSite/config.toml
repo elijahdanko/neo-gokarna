@@ -1,5 +1,5 @@
 baseURL = "https://elijahdanko.net"
-title = "Elijah Danko"
+title = "Illia Danko"
 theme = "neo-gokarna"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -55,13 +55,13 @@ pygmentsStyle = "monokai"
   [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
-    url = "https://github.com/elijahdanko/neo-gokarna"
+    url = "https://github.com/illia-danko/neo-gokarna"
     weight = 5
 
   [[menu.main]]
     identifier = "buymeacoffee"
     pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/elijahdanko"
+    url = "https://www.buymeacoffee.com/illia-danko"
     weight = 6
 
   [[menu.main]]

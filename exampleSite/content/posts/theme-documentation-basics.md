@@ -24,21 +24,21 @@ cd my_website
 
 ### b. Install the Theme
 
-The theme’s repository is: [https://github.com/elijahdanko/neo-gokarna](https://github.com/elijahdanko/neo-gokarna).
+The theme’s repository is: [https://github.com/illia-danko/neo-gokarna](https://github.com/illia-danko/neo-gokarna).
 
-You can download the [latest release :books: .zip file](https://github.com/elijahdanko/neo-gokarna/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :books: .zip file](https://github.com/illia-danko/neo-gokarna/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
 ```bash
-git clone https://github.com/elijahdanko/neo-gokarna.git themes/neo-gokarna
+git clone https://github.com/illia-danko/neo-gokarna.git themes/neo-gokarna
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```bash
 git init
-git submodule add https://github.com/elijahdanko/neo-gokarna.git themes/neo-gokarna
+git submodule add https://github.com/illia-danko/neo-gokarna.git themes/neo-gokarna
 ```
 
 ### c. Basic Configuration {#basic-configuration}

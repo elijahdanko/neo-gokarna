@@ -2,9 +2,9 @@ name = "NewGokarna"
 description = "NewGokarna is an opinionated theme with a focus on minimalism and simplicity"
 
 license = "GNU GPLv3"
-licenselink = "https://github.com/elijahdanko/neo-gokarna/blob/main/LICENSE"
+licenselink = "https://github.com/illia-danko/neo-gokarna/blob/main/LICENSE"
 
-homepage = "https://github.com/elijahdanko/neo-gokarna"
+homepage = "https://github.com/illia-danko/neo-gokarna"
 demosite = "https://elijahdanko.net"
 
 tags = ["blog", "minimal", "dark", "light", "responsive", "personal", "portfolio"]
@@ -14,7 +14,7 @@ features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "SEO", "Bootstra
 authors = [
   {name = "Yash Mehrotra", homepage = "https://yashmehrotra.com"},
   {name = "Avijit Gupta", homepage = "https://526avijitgupta.github.io"},
-  {name = "Elijah Danko", homepage = "https://elijahdanko.net"},
+  {name = "Illia Danko", homepage = "https://elijahdanko.net"},
 ]
 
 min_version = "0.81.0"
