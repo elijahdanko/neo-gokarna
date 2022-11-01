@@ -5,7 +5,7 @@ license = "GNU GPLv3"
 licenselink = "https://github.com/illia-danko/neo-gokarna/blob/main/LICENSE"
 
 homepage = "https://github.com/illia-danko/neo-gokarna"
-demosite = "https://elijahdanko.net"
+demosite = "https://danko.ws"
 
 tags = ["blog", "minimal", "dark", "light", "responsive", "personal", "portfolio"]
 
