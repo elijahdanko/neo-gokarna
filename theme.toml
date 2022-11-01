@@ -5,7 +5,7 @@ license = "GNU GPLv3"
 licenselink = "https://github.com/illia-danko/neo-gokarna/blob/main/LICENSE"
 
 homepage = "https://github.com/illia-danko/neo-gokarna"
-demosite = "https://danko.ws"
+demosite = "https://illia.danko.ws"
 
 tags = ["blog", "minimal", "dark", "light", "responsive", "personal", "portfolio"]
 
@@ -14,7 +14,7 @@ features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "SEO", "Bootstra
 authors = [
   {name = "Yash Mehrotra", homepage = "https://yashmehrotra.com"},
   {name = "Avijit Gupta", homepage = "https://526avijitgupta.github.io"},
-  {name = "Illia Danko", homepage = "https://elijahdanko.net"},
+  {name = "Illia Danko", homepage = "https://illia.danko.ws"},
 ]
 
 min_version = "0.81.0"
