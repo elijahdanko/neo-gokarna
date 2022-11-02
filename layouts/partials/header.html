@@ -16,6 +16,21 @@
             </div>
             {{ end }}
 
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+            <!-- For mobile -->
+            <ul class="nav-hamburger-list visibility-hidden">
+                {{ range .Site.Menus.main }}
+                <li class="nav-item">
+                    <a href="{{ .URL | absURL }}">
+                        {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
     </nav>
 </header>
